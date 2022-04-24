@@ -15,9 +15,9 @@ const sum = function(arr) {
 };
 
 const multiply = function(arr) {
-  let x = 0
-  for (let i = 0; i < arr.length; i++) {
-    x 
+  let x = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    x *= arr[i]
   }
   return x
 };
